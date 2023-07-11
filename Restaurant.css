@@ -183,7 +183,7 @@ nav {
     width: 100%;
     font-weight: 700;
     color: #FE9E0D;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .about-box h1 {
@@ -257,7 +257,7 @@ nav {
 
 .work h6 {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 25px;
     color: #FE9E0D;
 }
 
@@ -394,7 +394,7 @@ nav {
 .test h5 {
     color: #FE9E0D;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .sayings h1 {
@@ -586,27 +586,33 @@ footer {
     }
 
     .mobileNav {
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 0;
+        overflow: hidden;
+        transition: ease-in-out 1s;
+
     }
 
     .show {
-        display: flex;
+        height: 30vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #F6F6F6;
         gap: 5px;
         padding-bottom: 15px;
+        transition: ease-in-out 1s;
+
     }
 
-    .show li {
+    .show li, .mobileNav li {
         list-style: none;
     }
 
-    .show li a {
+    .show li a, .mobileNav li a {
         text-decoration: none;
         color: #4C4C4C;
         text-align: center;
@@ -614,7 +620,7 @@ footer {
         font-weight: 700;
     }
 
-    .show button {
+    .show button, .mobileNav button {
         background-color: #FE9E0D;
         color: #fff;
         font-size: 15px;
@@ -700,7 +706,6 @@ footer {
     .about-box h5 {
         text-align: center;
         font-weight: 700;
-        font-size: 20px;
     }
 
     .about-box h1 {
@@ -728,7 +733,6 @@ footer {
     }
 
     .wrk h6 {
-        font-size: 20px;
         font-weight: 700;
     }
 
@@ -741,11 +745,16 @@ footer {
         display: flex;
         flex-direction: column;
     }
-
+    .para-g p{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
     .testimonials {
         padding-top: 5rem;
     }
 
+    
     .sayings h1 {
         width: 100%;
         text-align: center;
@@ -760,9 +769,14 @@ footer {
         font-size: 20px;
     }
 
+    .lorem-pg p{
+        width: 100%;
+    }
+
     .faqs {
         display: block;
         padding: 0;
+        margin-top: 5rem;
     }
 
     .heading h1 {
