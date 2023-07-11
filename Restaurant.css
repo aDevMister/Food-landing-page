@@ -2,35 +2,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
-body{
+
+body {
     background-color: #F6F6F6;
 }
 
 
-nav{
-    
+nav {
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 25px 0;
-    
+
 }
 
 
-.logo h1{
+.logo h1 {
     color: #FE9E0D;
     font-weight: 500;
-    font-family: 'Reem Kufi', sans-serif; 
+    font-family: 'Reem Kufi', sans-serif;
 }
 
-.desktop{
+.desktop {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,20 +39,22 @@ nav{
     gap: 25px;
 }
 
-.desktop li{
+.desktop li {
     list-style: none;
 }
-.desktop li a{
+
+.desktop li a {
     text-decoration: none;
     font-size: 17px;
     font-weight: 700;
     color: #000;
 }
-.desktop img{
+
+.desktop img {
     height: 30px;
 }
 
-.booking{
+.booking {
     padding: 10px 25px;
     background-color: #fff;
     color: #000;
@@ -60,7 +63,8 @@ nav{
     cursor: pointer;
 }
 
-.mobileNav, .toggle{
+.mobileNav,
+.toggle {
     display: none;
 }
 
@@ -69,15 +73,15 @@ nav{
 
 
 
-.hero{
+.hero {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
 
-.text{
+.text {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -88,29 +92,32 @@ nav{
 
 }
 
-.text h1{
+.text h1 {
     width: 55%;
     font-size: 35px;
     font-weight: 700;
-    color: #4C4C4C;    
+    color: #4C4C4C;
 }
-.text p{
+
+.text p {
     width: 55%;
     font-size: 15px;
     font-weight: 600;
     color: #828282;
-    
+
 }
 
-.food img{
+.food img {
     height: 100vh;
     z-index: 100;
 }
-.btn{
+
+.btn {
     padding-right: 12rem;
-    
+
 }
-.banner{
+
+.banner {
     position: absolute;
     top: 0;
     z-index: -10;
@@ -120,7 +127,8 @@ nav{
 .btn button img {
     height: 10px;
 }
-.btn button{
+
+.btn button {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -137,7 +145,7 @@ nav{
 
 /* ---------------- About Section ---------------- */
 
-.about{
+.about {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -145,94 +153,100 @@ nav{
     align-items: center;
 }
 
-.food-img{
+.food-img {
     display: flex;
     align-items: center;
 }
 
-.shape img{
+.shape img {
     height: 60vh;
     position: relative;
     top: 0;
     z-index: -10;
     left: 0;
 }
-.food-icon img{
+
+.food-icon img {
     height: 50vh;
     z-index: 100;
     position: relative;
     right: 30%;
 }
-.about-box{
+
+.about-box {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.about-box h5{
+.about-box h5 {
     width: 100%;
     font-weight: 700;
     color: #FE9E0D;
     font-size: 15px;
 }
-.about-box h1{
+
+.about-box h1 {
     width: 30%;
     color: #4C4C4C;
     font-weight: 700;
 }
 
-.about-box p{
+.about-box p {
     width: 45%;
-    color:#828282;
+    color: #828282;
     font-weight: 500;
 
 }
 
-.para2{
+.para2 {
     padding-top: 15px;
 }
-.para2 p{
+
+.para2 p {
     width: 45%;
-    color:#828282;
+    color: #828282;
     font-weight: 500;
 }
 
-.about-btn{
+.about-btn {
     display: flex;
     flex-direction: row;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 35px;
     padding-top: 15px;
 }
 
-.learnMore button{
+.learnMore button {
     padding: 10px 25px;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     background-color: #FE9E0D;
-    color: #fff; 
+    color: #fff;
 }
 
-.about-img{
+.about-img {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
-.about-img img{
+
+.about-img img {
     height: 40px;
 }
-.about-img span{
+
+.about-img span {
     color: #515151;
     font-weight: 500;
 }
 
 /* ---------------- Work Section ---------------- */
 
-.work{
+.work {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,16 +255,17 @@ nav{
     padding: 10rem;
 }
 
-.work h6{
+.work h6 {
     font-weight: 700;
     font-size: 15px;
     color: #FE9E0D;
 }
 
-.enquiry{
+.enquiry {
     padding-bottom: 45px;
 }
-.enquiry h1{
+
+.enquiry h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -260,14 +275,15 @@ nav{
     font-size: 30px;
 }
 
-.en-para{
+.en-para {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 10px;
 }
-.en-para p{
+
+.en-para p {
     width: 40%;
     text-align: center;
     font-weight: 500;
@@ -275,18 +291,18 @@ nav{
     color: #828282;
 }
 
-.process{
+.process {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
 
-.pick{
+.pick {
     width: 100%;
     height: 40vh;
-    background-color: #fff; 
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     padding-top: 25px;
@@ -294,38 +310,40 @@ nav{
     border-radius: 15px;
     gap: 25px;
 }
+
 .fork img {
     height: 70px;
 }
 
-.cent{
+.cent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.cent h3{
+
+.cent h3 {
     font-weight: 700;
-    color:#505050;
+    color: #505050;
 }
 
-.para-g{
+.para-g {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.para-g p{
+.para-g p {
     width: 60%;
     text-align: center;
 
 }
 
-.choose{
+.choose {
     width: 100%;
     height: 40vh;
-    background-color: #fff; 
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     padding-top: 25px;
@@ -333,13 +351,15 @@ nav{
     border-radius: 15px;
     gap: 25px;
 }
+
 .point img {
     height: 70px;
 }
-.delivery{
+
+.delivery {
     width: 100%;
     height: 40vh;
-    background-color: #fff; 
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -347,6 +367,7 @@ nav{
     gap: 25px;
     padding-top: 25px;
 }
+
 .ship img {
     height: 70px;
 }
@@ -354,7 +375,7 @@ nav{
 
 /* -- ------------Testimonial Section------------- -- */
 
-.testimonials{
+.testimonials {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,7 +383,7 @@ nav{
     gap: 30px;
 }
 
-.upper-pg{
+.upper-pg {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -370,13 +391,13 @@ nav{
     gap: 15px;
 }
 
-.test h5{
+.test h5 {
     color: #FE9E0D;
     font-weight: 700;
     font-size: 20px;
 }
 
-.sayings h1{
+.sayings h1 {
     width: 100%;
     font-weight: 700;
     font-size: 35px;
@@ -384,14 +405,15 @@ nav{
     gap: 15px;
 }
 
-.lorem-txt{
-    width:100%;
+.lorem-txt {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.lorem-txt p{
+
+.lorem-txt p {
     width: 45%;
     font-size: 18px;
     font-weight: 600;
@@ -400,7 +422,7 @@ nav{
     line-height: 1.5;
 }
 
-.testimonial-container{
+.testimonial-container {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -413,15 +435,15 @@ nav{
     gap: 25px;
 }
 
-.lorem-pg{
-    width:100%;
+.lorem-pg {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.lorem-pg p{
+.lorem-pg p {
     width: 70%;
     font-size: 18px;
     font-weight: 600;
@@ -433,7 +455,7 @@ nav{
 
 /* -- ------------Contact Section------------- -- */
 
-.faqs{
+.faqs {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -442,7 +464,7 @@ nav{
     padding: 10rem 0;
 }
 
-.heading{
+.heading {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -451,7 +473,7 @@ nav{
     padding-bottom: 45px;
 }
 
-.heading h1{
+.heading h1 {
     width: 40%;
     color: #4C4C4C;
     font-weight: 700;
@@ -459,7 +481,8 @@ nav{
     line-height: 1.5;
     text-align: center;
 }
-.input{
+
+.input {
     width: 30%;
     padding: 20px 25px;
     background-color: white;
@@ -467,11 +490,11 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     border-radius: 25px;
-    
+
 
 }
 
-.input input{
+.input input {
     border: none;
     outline: none;
     background-color: white;
@@ -480,7 +503,7 @@ nav{
     font-size: 15px;
 }
 
-.input button{
+.input button {
     padding: 10px 25px;
     background-color: #FE9E0D;
     color: #fff;
@@ -490,7 +513,7 @@ nav{
 
 /* -- ------------FOOTER Section------------- -- */
 
-footer{
+footer {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -498,20 +521,20 @@ footer{
     padding: 3rem;
 }
 
-.footer-left{
+.footer-left {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items: flex-start;
     gap: 15px;
 }
 
-.footer-logo h1{
+.footer-logo h1 {
     font-family: 'Reem Kufi';
     font-weight: 500;
     color: #303030;
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -519,17 +542,17 @@ footer{
     gap: 10px;
 }
 
-.social-icons img{
-    height: 30px ;
+.social-icons img {
+    height: 30px;
 }
 
-.footer-right{
+.footer-right {
     display: flex;
     flex-direction: row;
     gap: 70px;
 }
 
-.list li{
+.list li {
     list-style: none;
     font-weight: 600;
     color: #4C4C4C;
@@ -541,49 +564,49 @@ footer{
 
 @media screen and (max-width:900px) {
 
-    body{
+    body {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0 40px;
     }
-    .desktop{
-        display: none;
-    }
-    .logo{
-        display: block;
-        margin-right: 6rem;
-    }
-    .banner-bg{
+
+    .desktop {
         display: none;
     }
 
-    .mobileNav{
+    .logo {
+        display: block;
+        margin-right: 6rem;
+    }
+
+    .banner-bg {
+        display: none;
+    }
+
+    .mobileNav {
         display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transition: ease-in-out 3s;
     }
 
-    .show{
+    .show {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color:#F6F6F6;
+        background-color: #F6F6F6;
         gap: 5px;
         padding-bottom: 15px;
-        transition: ease-in-out 3s;
-
     }
-    
-    .show li{
+
+    .show li {
         list-style: none;
     }
 
-    .show li a{
+    .show li a {
         text-decoration: none;
         color: #4C4C4C;
         text-align: center;
@@ -591,13 +614,13 @@ footer{
         font-weight: 700;
     }
 
-    .show button{
+    .show button {
         background-color: #FE9E0D;
         color: #fff;
         font-size: 15px;
     }
-    
-    .toggle{
+
+    .toggle {
         display: block;
         padding: 10px 25px;
         background-color: #FE9E0D;
@@ -607,8 +630,8 @@ footer{
         font-weight: 700;
 
     }
-    
-    .hero{
+
+    .hero {
         display: flex;
         flex-direction: column;
         border: none;
@@ -616,131 +639,149 @@ footer{
         align-items: center;
         justify-content: center;
     }
-   .text{
+
+    .text {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding:0;
-   }
-
-    .text h1{
-    width: 100%;
-    text-align: center;
-   }
-
-   .text p{
-    width: 90%;
-    text-align:center;
-    font-size: 20px;
-    font-weight: 600;
-   }
-   .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-   }
-  
-   .food img{
-    height: 50vh;
-    padding-right: 2rem;
-   }
-  
-   .food-icon img{
-    position: relative;
-    left: 50px;
-    height: 35vh;
-    margin-right:5rem;
+        padding: 0;
     }
 
-   .about{
-    width: 100%;
-    display: flex;
-    flex-direction:column-reverse;
-    padding-top: 35px;
-    gap: 20px;
-   }
+    .text h1 {
+        width: 100%;
+        text-align: center;
+    }
 
-   .about-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-   }
+    .text p {
+        width: 90%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
 
-   .shape img {
-    display: none;
-   }
-  
-   .about-box h5{
-    text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-   }
-   .about-box h1{
-    width: 100%;
-    text-align: center;
-   }
-   .about-box p{
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-   }
-   .about-btn{
-    display: flex;
-    flex-direction: column;
-   }
-   .work{
-    padding: 0;
-    margin-top: 5rem;
-   }
-   .wrk h6{
-    font-size: 20px;
-    font-weight: 700;
-   }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
 
-   .en-para p{
-    width: 100%;
-    font-size: 20px;
-   }
-   .process{
-    display: flex;
-    flex-direction: column;
-   }
-    
-   .testimonials{
-    padding-top: 5rem;
-   }
+    .food img {
+        height: 50vh;
+        padding-right: 2rem;
+    }
 
-   .sayings h1{
-    width: 100%;
-    text-align: center;
-   }
-   .testimonial-container{
-    width: 100%;
-   }
-   .lorem-txt p{
-    width: 100%;
-    font-size: 20px;
-   }
-   .faqs{
-    display: block;
-   }
-   .heading h1{
-    width: 90%;
-    font-size: 25px;
-   }
-   .input{
-    width: 100%;
-   }
-   footer{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-   }
-   .footer-right{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-   }
+    .food-icon img {
+        position: relative;
+        left: 50px;
+        height: 35vh;
+        margin-right: 5rem;
+    }
+
+    .about {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 35px;
+        gap: 20px;
+    }
+
+    .about-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .shape img {
+        display: none;
+    }
+
+    .about-box h5 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .about-box h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-box p {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about-btn {
+        display: flex;
+        flex-direction: column;
+    }
+    .learnMore button{
+        margin-left: 1rem;
+    }
+
+    .work {
+        padding: 0;
+        margin-top: 5rem;
+    }
+
+    .wrk h6 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .en-para p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .process {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonials {
+        padding-top: 5rem;
+    }
+
+    .sayings h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonial-container {
+        width: 100%;
+    }
+
+    .lorem-txt p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .faqs {
+        display: block;
+    }
+
+    .heading h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
