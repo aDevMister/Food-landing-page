@@ -762,6 +762,7 @@ footer {
 
     .faqs {
         display: block;
+        padding: 0;
     }
 
     .heading h1 {
